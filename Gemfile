@@ -39,6 +39,7 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'devise'
 gem 'will_paginate'
+gem 'jquery-rails'
 gem 'execjs'
 gem 'therubyracer'
 
