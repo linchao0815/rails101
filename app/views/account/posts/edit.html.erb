@@ -1,0 +1,12 @@
+<div class="col-md-4 col-md-offset-4">
+    <h2>编辑post</h2>
+
+    <hr>
+		<tr>
+		  <td> <%= @post.content %> </td>
+		  <td> <%= @post.group.title %> </td>
+		  <td> <%= @post.updated_at %> </td>
+		  <%= @post.submit "Submit", :disable_with => 'Submiting...' %>
+		</tr>
+
+</div>
